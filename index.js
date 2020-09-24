@@ -18,7 +18,7 @@ function main() {
   app.use('/login', routes.login);
   app.use('/todos', middleware.checkToken, routes.app);
 
-  app.listen(port, () => console.log(`Server is listening on port: ${port}`));
+  app.listen(port, () => console.log(`Server is listening on port: ${port}!!`));
 }
 
 main();
